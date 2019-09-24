@@ -29,6 +29,8 @@ void loop() {
   Serial.print(SignalGenerateSaw(-3.0, 3.0, 0.250, 0.0));
   Serial.print(",Noise:");
   Serial.print(SignalGenerateNoise(0.5, -0.25));
+  Serial.print(",RandomPeaks:");
+  Serial.print(SignalGenerateRPeaks(7.0, 0.0, 0.001));
 
   static uint16_t overrun = 0;
   overrun = 1;
@@ -38,5 +40,5 @@ void loop() {
   NextSampleTime += SAMPLETIME; 
   static uint16_t i = 0;
   if (i++ >  SAMPLES)
-    while(1);
+    while(0);
 }

@@ -14,12 +14,13 @@ SignalGeneratorStartTime	KEYWORD2
 SignalGeneratorStartTimeS	KEYWORD2
 SignalGeneratorSetTime		KEYWORD2
 SignalGeneratorSetTimeS		KEYWORD2
-SignalGeneratePWM		    KEYWORD2
+SignalGeneratePWM		KEYWORD2
 SignalGenerateSqu       	KEYWORD2
-SignalGeneratePulse			KEYWORD2
-SignalGenerateSin			KEYWORD2
+SignalGeneratePulse		KEYWORD2
+SignalGenerateSin		KEYWORD2
 SignalGenerateSaw   		KEYWORD2
-SignalGenerateNoise			KEYWORD2
+SignalGenerateNoise		KEYWORD2
+SignalGenerateRPeaks		KEYWORD2
 
 #######################################
 # Constants (LITERAL1)

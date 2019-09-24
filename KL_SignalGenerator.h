@@ -14,5 +14,6 @@ float SignalGeneratePulse(float amplitude, float bias, float periodTime, float o
 float SignalGenerateSin(float amplitude, float bias, float periodTime, float offsetTime);
 float SignalGenerateSaw(float amplitude, float bias, float periodTime, float offsetTime);
 float SignalGenerateNoise(float amplitude, float bias);
+float SignalGenerateRPeaks(float amplitude, float bias, float frequency); // frequency [0.0 ... 1.00]
 
 #endif // KL_SIGNALGENERATOR_H

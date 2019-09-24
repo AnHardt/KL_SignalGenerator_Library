@@ -47,3 +47,7 @@ float SignalGenerateSaw(float amplitude, float bias, float periodTime, float off
 float SignalGenerateNoise(float amplitude, float bias) {
   return bias + amplitude * random(INT_MIN,INT_MAX)/(INT_MIN*-2.0f);
 }
+
+float SignalGenerateRPeaks(float amplitude, float bias, float frequency) {
+  return bias + amplitude * (((random(INT_MAX)/((float)INT_MAX-1)) >= 1.0f-frequency) ? 1.0 : 0.0);
+}
