@@ -1,7 +1,7 @@
 #define SAMPLES 500
 #define SAMPLETIME (5.0f/1000.0f)
 
-#include "SignalGenerator.h"
+#include "KL_SignalGenerator.h"
 
 float NextSampleTime;
 
