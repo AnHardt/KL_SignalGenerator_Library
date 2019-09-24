@@ -1,4 +1,4 @@
-#include "SignalGenerator.h"
+#include "KL_SignalGenerator.h"
 #include "limits.h"
 
 float SignalGeneratorSignalTime = 0.0f; // by default in ms
